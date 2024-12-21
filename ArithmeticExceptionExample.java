@@ -12,7 +12,7 @@ public class ArithmeticExceptionExample {
         int num = scanner.nextInt();
 
         try {
-            // Dividing by zero to intentionally cause ArithmeticException
+        
             int result = num / 0;
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
